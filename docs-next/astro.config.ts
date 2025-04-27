@@ -8,7 +8,8 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Mocha",
-      description: "The classic, reliable, trusted JavaScript test framework for Node.js & the Browser. ☕",
+      description:
+        "The classic, reliable, trusted JavaScript test framework for Node.js & the Browser. ☕",
       logo: {
         dark: "./src/components/icon-dark.svg",
         light: "./src/components/icon-light.svg",
@@ -94,23 +95,11 @@ export default defineConfig({
         {
           collapsed: true,
           items: [
-            {
-              label: "Detecting multiple calls to done()",
-              slug: "explainers/detecting-multiple-calls-to-done",
-            },
-            {
-              label: "Node.js native ESM support",
-              slug: "explainers/nodejs-native-esm-support",
-            },
-            {
-              label: "Run cycle overview",
-              slug: "explainers/run-cycle-overview",
-            },
+            { slug: "explainers/detecting-multiple-calls-to-done" },
+            { slug: "explainers/nodejs-native-esm-support" },
+            { slug: "explainers/run-cycle-overview" },
             { slug: "explainers/test-duration" },
-            {
-              label: "Test fixture decision tree",
-              slug: "explainers/test-fixture-decision-tree",
-            },
+            { slug: "explainers/test-fixture-decision-tree" },
           ],
           label: "Explainers",
         },
