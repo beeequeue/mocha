@@ -23,11 +23,11 @@ export default defineConfig({
         { slug: "getting-started" },
         {
           items: [
-            { slug: "running/cli" },
             { slug: "running/configuring" },
-            { slug: "running/editor-plugins" },
-            { slug: "running/browsers" },
+            { slug: "running/cli" },
             { slug: "running/test-globs" },
+            { slug: "running/browsers" },
+            { slug: "running/editor-plugins" },
           ],
           label: "Running Mocha",
         },
